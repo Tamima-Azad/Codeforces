@@ -1,0 +1,1 @@
+{"name":"Local: SwapSort","url":"d:\\Old Desktop\\code forces\\SwapSort.cpp","tests":[{"id":1714625376936,"input":"5\n5 2 5 1 4","output":"2\n0 3\n4 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Old Desktop\\code forces\\SwapSort.cpp","group":"local","local":true}
