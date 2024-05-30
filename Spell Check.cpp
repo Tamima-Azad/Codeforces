@@ -16,6 +16,9 @@ int main()
        if(c1==1&&c2==1&&c3==1&&c4==1&&c5==1&&n==5)
         cout<<"YES"<<endl;
        else cout<<"NO"<<endl;
+    // sort(s.begin(),s.end());
+    // if(s=="Timru") cout<<"YES"<<endl;
+    // else cout<<"NO"<<endl;
     }
     return 0;
 }
