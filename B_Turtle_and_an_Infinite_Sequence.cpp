@@ -9,14 +9,17 @@ int main() {
     ll t; cin >> t;
     while(t--){ 
         ll n, m; cin >> n >> m;
-        ll nn = n;
-        // n = (n+m)|(n+1);
-        // if(m==0)cout << nn << endl;
-        // else 
-        // cout << n << endl;
-        while(m!=0){
-            
+        ll mn, nn = n;
+        set<int>s;
+        for(int i = m; i>= 0; i--){
+            mn = (n|(nn+i));
+            n = mn;
+            //cout << mn << " ";
+            s.insert(mn);
         }
+        ll ans;
+         for(auto i: s)ans = i;
+         cout << ans << endl;
     }
     return 0;
 }
